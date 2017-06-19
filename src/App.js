@@ -35,7 +35,7 @@ class App extends Component {
   render() {
     let printdate;
     let cdate = (new Date(this.state.date)).toDateString();
-    if (cdate != ( new Date()).toDateString() ) {
+    if (cdate !== 'Invalid date') {
       printdate = <p className="App-intro">{cdate}</p>
     }
     return (
