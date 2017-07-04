@@ -1,15 +1,4 @@
-.test {
- margin-left: 2px;
-
- .tester {
-   margin-left: 20px;
- }
-
-}
-
-@import 'styles/base';
-
-
+@import 'styles/event';
 
 .App {
   text-align: center;
@@ -28,7 +17,7 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: 16px;
 }
 
 @keyframes App-logo-spin {
